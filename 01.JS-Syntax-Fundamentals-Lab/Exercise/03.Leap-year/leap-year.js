@@ -7,3 +7,5 @@ function CalculateLeapYears(year) {
     console.log("no");
   }
 }
+
+CalculateLeapYears(2);
