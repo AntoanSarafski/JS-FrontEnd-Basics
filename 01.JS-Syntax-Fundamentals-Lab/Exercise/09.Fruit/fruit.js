@@ -1,11 +1,9 @@
 function calculateFruitPrice(typeFruit, weightInGrams, pricePerKilo) {
-  const weightInKilo = weightInGrams / 1000;
-  const totalPrice = weightInKilo * pricePerKilo;
+  const weightInKilo = (weightInGrams / 1000).toFixed(2);
+  const totalPrice = (weightInKilo * pricePerKilo).toFixed(2);
 
   console.log(
-    `I need $${totalPrice.toFixed(2)} to buy ${weightInKilo.toFixed(
-      2
-    )} kilograms ${typeFruit}`
+    `I need $${totalPrice} to buy ${weightInKilo} kilograms ${typeFruit}`
   );
 }
 
