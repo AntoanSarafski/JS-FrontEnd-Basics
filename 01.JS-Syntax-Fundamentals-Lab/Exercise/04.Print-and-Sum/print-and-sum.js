@@ -1,4 +1,4 @@
-function solve(start, end) {
+function PrintNumsAndSum(start, end) {
   let numbers = [];
   let sum = 0;
 
@@ -10,4 +10,4 @@ function solve(start, end) {
   console.log(`Sum: ${sum}`);
 }
 
-solve(5, 10);
+PrintNumsAndSum(5, 10);
